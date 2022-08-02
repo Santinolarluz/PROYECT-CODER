@@ -140,7 +140,7 @@ body {
     background-color: #2E8B57;
 }
 
-.footer p {
+.footer_texto {
     color: aliceblue;
     font-size: 27px;
     display: flex;
@@ -177,7 +177,7 @@ body {
 
 @media screen and (max-width: 1179px) {
 
-    .footer p{
+    .footer_texto{
         text-align: center;
         display: flex;
         justify-content: center;
@@ -205,19 +205,29 @@ body {
 }
 
 .header div img{
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
 }
 
 .header__nav ul li a{
     font-size: 25px;
 }
 
-.footer p{
+.footer_texto{
     text-align: center;
     display: flex;
     justify-content: center;
     font-size: 20px;
+    padding: 5%;
+}
+
+.marcasDestacadas__logos{
+    flex-direction: column;   
+}
+
+.marcasDestacadas__logos img{
+    height: 35%;
+    width:35% ; 
 }
 
 
