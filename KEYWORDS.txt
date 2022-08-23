@@ -1,0 +1,17 @@
+
+Los nombres de mis paginas y sus secciones son
+
+index.html Lemmyspetshop
+Alimentos Gato
+Productos
+Accesorios
+
+A todas las paginas les agregue la siguiente descripcion. "Tienda online delivery de alimento para tu mascota MDP, todas las marcas y los mejores precios"
+
+Los keywords para el index.html son: "PRODUCTOS, ALIMENTOS, ALIMENTOS PARA PERRO, PERRO, GATO, ACCESORIOS, MASCOTA, ROYAL CANIN, DELIVERY, ENTREGA A DOMICILIO, SIN CARGO, PET SHOP, ALIMENTOS MASCOTAS"
+
+Los keywords para la pagina Alimentos gato dentro del index.html son: "GATO, ALIMENTO, ALIMENTO PARA MI GATO, MASCOTA, BOLSA DE ALIMENTO, ENTREGA A DOMICILIO, FELINO, KITTEN, ALIMENTO GATO"
+
+Los keywords para la pagina Productos dentro del index.html son: "PRODUCTOS, BOLSA DE ALIMENTOS, ALIMENTOS, PERRO, MASCOTA, ENTREGA A DOMICILIO, ROYAL CANIN, VITAL CAN, KILOS, ALIMENTOS PARA MI MASCOTA"
+
+Los keywords para la pagina Accesorios dentro del index.html son: "CORREA, HUESO PARA PERRO, PERRO, GATO, JUGUETES, JUGUETES MASCOTA, BOZAL, PASEAR, ACCESORIO, ACCESORIOS, ENTREGA A DOMICILIO"

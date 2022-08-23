@@ -1,0 +1,300 @@
+@import "mediaqueries";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  
+$verde: #32a162;
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/*----------HEADER----------*/
+
+.header {
+  margin-bottom: 100px;
+}
+
+.header__logo {
+  height: 10%;
+  width: 10%;
+}
+
+.header__logo h2 {
+  margin-left: 30px;
+}
+
+.header__nav {
+  margin-left: 550px;
+}
+
+.header__nav li a {
+  font-size: 23px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.container-fluid h2 {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*------------MAIN------------*/
+
+.inicioP p {
+  font-size: 30px;
+  margin: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.inicio_foto {
+  height: 270px;
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+}
+
+.botons_sticky a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: $verde;
+  padding: 15px 25px;
+  color: azure;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 25px;
+}
+
+.logowppb {
+  height: 50px;
+  width: 50px;
+}
+
+.tiposProductos a {
+  font-size: 25px;
+  text-decoration: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tiposProductos img {
+  height: 270px;
+  width: 270px;
+  display: flex;
+}
+
+.tiposProductos {
+  margin: 150px;
+}
+
+.tiposProductos div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.marcasDestacadas h2 {
+  text-decoration: underline $verde;
+  font-size: 35px;
+  text-align: center;
+}
+
+.marcasDestacadas__logos {
+  margin-top: 50px;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.marcasDestacadas__logos img {
+  height: 20%;
+  width: 20%;
+}
+
+.productos {
+  margin-bottom: 100px;
+}
+
+.productos h2 {
+  text-decoration: underline $verde;
+  font-size: 35px;
+  margin: 100px;
+  text-align: center;
+}
+
+.productos__boton2{
+  padding: 13px;
+  border-radius: 25px;
+  background-color: #32a162;
+  font-size: 15px;
+  display: flex;
+  border: 0px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.productos__tarjetas {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.productos__imagenes {
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+}
+
+.productos__titulo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.productos__precio {
+  font-size: 20px;
+  text-align: center;
+}
+
+.productos__boton {
+  padding: 13px;
+  border-radius: 25px;
+  background-color: $verde ;
+  font-size: 15px;
+  display: flex;
+  border: 0px;
+  justify-content:center ; 
+  margin-top: 20px;
+}
+.productos__enlace {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*--maps--*/
+
+$estilos: (
+  color: green,
+  centro: center,
+  tFuente: 35px,
+  1rem: 1rem
+);
+.numeros{
+  background-color: map-get($map: $estilos, $key: col );
+  text-align: map-get($map: $estilos, $key: centro );
+  padding: map-get($map: $estilos, $key: tFuente );
+  font-size: map-get($map: $estilos , $key: 1rem );
+}
+
+/*--extend--*/
+
+.card{
+border: $verde;
+padding: 15px;
+
+}
+
+.productos__tarjetas{
+  @extend .card;
+}
+
+/*--mixin--*/
+
+@mixin underlineverde(){
+  text-decoration: underline $verde;
+  text-align: center;
+} 
+
+.marcasDestacadas h2 {
+  @include underlineverde()
+}
+
+
+
+
+/*-----------FOOTER-----------*/
+
+.footer {
+  background-color: $verde;
+}
+
+.footer_texto {
+  color: aliceblue;
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer__logosImg {
+  height: 5%;
+  width: 5%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  align-items: center;
+}
+
+.footer__logos {
+ display:flex;
+}
+
+.logoig {
+  height: 5%;
+  width: 5%;
+}
+
+/*---------OTROS-DOCUMENTOS------*/
+
+.numeros {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.producto__columna {
+  margin: 5px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  border: 1px solid #e7e7e7;
+
+  padding: 10px;
+
+  border-radius: 3px;
+}
+
+.productos .contenedor {
+  display: grid;
+}
+
+.producto__columna img {
+  height: 250px;
+  width: 250px;
+}
